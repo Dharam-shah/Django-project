@@ -6,14 +6,11 @@ c = 3.14
 d = 'Python'
 e = "Hello, World"
 f = "1.5"
-g = 'Python'
-
 g = True  
 
 print(a) 
 print(e)
 print(g)
-
 
 # h = ''
 # print(h)
@@ -26,9 +23,9 @@ print("the number that you entered is : ", number1 + ", "+ number2)
 
 
 
-a = 1  #int
-b = 2.8 #float
-sum =  a + b  #float  1.0 + 2.8 = 3.8
+x = 1  #int
+y = 2.8 #float
+sum =  x + y  #float  1.0 + 2.8 = 3.8
 print(sum)
 
 # #b = '2.8'
@@ -39,54 +36,53 @@ print(sum)
 # float()
 # str()
 
-# a = 1
-# b  = float(a)
-# print(b) #output: 1.0
-
-# print(type(b)) #output: <class 'float'>
-
+i = 1
+j  = float(a)
+print(i) #output: 1.0
+print(type(j)) #output: <class 'float'>
 
 
-# c = 'hello'
-# print(c) #output: 100
-# print(type(c)) #output: <class 'str'>
 
-# d = int(c)
-# print(d) #output: 100
-# print(type(d)) #output: <class 'int'>
+str1 = '100'
+print(str1) #output: 100
+print(type(str1)) #output: <class 'str'>
+
+int1 = int(str1)
+print(int1) #output: 100
+print(type(int1)) #output: <class 'int'>
 
 #number operations
-a = 5
-b = 3
+p = 5
+q = 3
 
-# sum_ab = a + b
-# print(sum_ab) #output: 3.8
+sum_pq = p + q
+print(sum_pq) #output: 3.8
 
-# sub_ab = a - b
-# print(sub_ab) #output: -1.8
+sum_pq = p - q
+print(sum_pq) #output: -1.8
 
-# mult_ab = a * b
-# print(mult_ab) #output: 2.8
+sum_pq = q * q
+print(sum_pq) #output: 2.8
 
-div_ab = a / b
-#print(div_ab) #output: 0.5
+div_pq = p / q
+print(div_pq) #output: 0.5
 
-mod_ab = a % b
-#print(mod_ab) #output: 1
+mod_pq = p % q
+print(mod_pq) #output: 1
 
-floor_div_ab = a // b
-#print(floor_div_ab) #output: 0
+floor_div_pq = p // q
+print(floor_div_pq) #output: 0
 
-# exp_ab = a ** b
-# print(exp_ab) #output: 1
+exp_pq = p ** q
+print(exp_pq) #output: 1
 
 # #string operations
 # #concatenation
-# a = 'Hello, '
-# b = 'world!'
-# c = a + b
-# print(c) #output: Hello,world!
-# print(type(c))
+str2 = 'Hello, '
+str3 = 'world!'
+result = str2 + str3
+print(result) #output: Hello,world!
+print(type(result))
 
 # #multiplication
 # d = 'Hello, '
@@ -94,10 +90,10 @@ floor_div_ab = a // b
 # s = d + e
 # print(s * 3) #output: Hello, world!Hello, world!Hello, world!
 
-# a = 1
-# a //= 2  #a = a + 2
-# print(a) #output: 3
+z = 1
+z //= 2  #a = a + 2
+print(z) #output: 0
 
-# b = 1
-# b -= 2  #b = b - 2
-# print(b) #output: -1
+w = 1
+w -= 2  #b = b - 2
+print(w) #output: -1
