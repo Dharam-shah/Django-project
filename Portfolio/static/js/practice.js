@@ -37,3 +37,15 @@ switch (area) {
   default:
     console.log("Enter valid data");
 }
+
+// var num = 30;
+// while (num >= 35) {
+//   console.log(num);
+//   num++;
+// }
+
+var num = 30;
+do {
+  console.log(num);
+  num++;
+} while (num >= 35);
